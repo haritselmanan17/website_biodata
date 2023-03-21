@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0:
+}
+
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, 
+section#profil, 
+section#activities,
+footer
+{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+header, 
+section#profil, 
+section#activities
+{
+    background-color: rgb(231, 227, 226);
+    border-bottom: 2px solid orange;
+}
+
+header img {
+    width: 150px;
+    float: left; 
+}
+
+header h1 {
+    float: left;
+    font-size: 37px;
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 585px;
+    border-bottom: 5px solid rgb(16, 16, 16);
+}
+
+section#profil h1, section#activities h1 {
+    margin-bottom: 20px;
+   
+}
+
+
+section#profil h1, section#activities h1 {
+    text-align: center;
+    font-size: 32px;
+    background-color: gray;
+    color: white;
+    padding:10px;
+    text-indent: 1in;
+}
+
+
+#profil-content{
+    width: 700px;
+    margin: auto;
+}
+
+
+#profil-content img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#profil-content #deskripsi-profil{
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+#profil-content #deskripsi-profil p {
+    text-align: justify;
+}
+
+.item-activity{
+    padding: 10px;
+}
+
+
+.item-activity img, 
+.item-activity p {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+
+.item-activity p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}   
+footer{
+    width: 700px;
+    background-color: black;
+    display: block;
+    margin: auto;
+
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    width: 200px;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+footer a:hover{
+    background-color: red;
+}
+
+
+.fix-container{
+    clear: both;
+}
